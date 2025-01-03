@@ -2,73 +2,12 @@
 
 /* General Styling */
 .hotel-page {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Hero Section */
-.hotel-hero {
-    background-color: #f8f9fa;
-    padding: 40px 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #333;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-.search-bar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.search-bar select,
-.search-bar input {
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    max-width: 250px;
-    width: 100%;
-    background-color: white;
-    color: black;
-}
-
-.search-bar input[type="number"] {
-    -moz-appearance: textfield;
-}
-
-.search-bar button {
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.search-bar button:hover {
-    background-color: #0056b3;
 }
 
 /* Hotel List Section */
@@ -97,6 +36,11 @@
     overflow: hidden;
     width: 100%;
     max-width: 350px;
+    transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+    transform: scale(1.05);
 }
 
 .hotel-image {
@@ -120,6 +64,13 @@
     color: #666;
 }
 
+.location {
+    font-size: 1rem;
+    font-style: italic;
+    color: #999;
+    margin-top: 10px;
+}
+
 .book-now-button {
     display: block;
     width: 100%;
@@ -138,45 +89,21 @@
     background-color: #218838;
 }
 
-/* Labels for Form Fields */
-.search-bar label {
-    font-size: 1.2rem;
-    color: #333;
-    margin-right: 10px;
-    flex: 1;
-    display: flex;
-    align-items: center;
-}
-
-.search-bar .place-to-go-label {
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.search-bar .check-in-label,
-.search-bar .check-out-label,
-.search-bar .guests-label {
-    font-weight: bold;
-    margin-right: 10px;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hotel-hero {
-        padding: 30px 10px;
+    .hotel-page {
+        padding: 20px;
     }
 
-    .hero-content h1 {
-        font-size: 2rem;
+    .hotel-info h3 {
+        font-size: 1.3rem;
     }
 
-    .hero-content p {
+    .hotel-info p {
         font-size: 1rem;
     }
 
-    .search-bar select,
-    .search-bar input,
-    .search-bar button {
-        max-width: 100%;
+    .hotel-card {
+        width: 100%;
     }
 }

@@ -1,0 +1,30 @@
+.tourist-page {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tourist-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.tourist-page p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.tourist-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.tourist-list li {
+    margin: 10px 0;
+}

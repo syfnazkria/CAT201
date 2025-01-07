@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CAT201/static/css/main.fb910ceb.css",
-    "main.js": "/CAT201/static/js/main.b79e040e.js",
-    "static/js/488.67b57667.chunk.js": "/CAT201/static/js/488.67b57667.chunk.js",
-    "index.html": "/CAT201/index.html",
-    "main.fb910ceb.css.map": "/CAT201/static/css/main.fb910ceb.css.map",
-    "main.b79e040e.js.map": "/CAT201/static/js/main.b79e040e.js.map",
-    "488.67b57667.chunk.js.map": "/CAT201/static/js/488.67b57667.chunk.js.map"
+    "main.css": "/visit-penang/static/css/main.fb910ceb.css",
+    "main.js": "/visit-penang/static/js/main.e21b29da.js",
+    "static/js/488.67b57667.chunk.js": "/visit-penang/static/js/488.67b57667.chunk.js",
+    "index.html": "/visit-penang/index.html",
+    "main.fb910ceb.css.map": "/visit-penang/static/css/main.fb910ceb.css.map",
+    "main.e21b29da.js.map": "/visit-penang/static/js/main.e21b29da.js.map",
+    "488.67b57667.chunk.js.map": "/visit-penang/static/js/488.67b57667.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb910ceb.css",
-    "static/js/main.b79e040e.js"
+    "static/js/main.e21b29da.js"
   ]
 }
